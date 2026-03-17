@@ -1,0 +1,109 @@
+{
+    "@context": {
+      "@version": 1.1,
+      "@protected": true,
+      "FiataBillOfLading": {
+        "@id": "https://example.com/terms#FiataBillOfLading",
+        "@type": "@id",
+        "@context": {
+          "@protected": true,
+          "logo": {
+            "@id": "https://example.com/terms#logo"
+          },
+          "fblNumber": {
+            "@id": "https://example.com/terms#fblNumber"
+          },
+          "companyName": {
+            "@id": "https://example.com/terms#companyName"
+          },
+          "consignor": {
+            "@id": "https://example.com/terms#consignor"
+          },
+          "notifyAddress": {
+            "@id": "https://example.com/terms#notifyAddress"
+          },
+          "consignedToOrderOf": {
+            "@id": "https://example.com/terms#consignedToOrderOf"
+          },
+          "vessel": {
+            "@id": "https://example.com/terms#oceanVessel"
+          },
+          "placeOfReceipt": {
+            "@id": "https://example.com/terms#placeOfReceipt"
+          },
+          "placeOfDelivery": {
+            "@id": "https://example.com/terms#placeOfDelivery"
+          },
+          "portOfLoading": {
+            "@id": "https://example.com/terms#portOfLoading"
+          },
+          "portOfDischarge": {
+            "@id": "https://example.com/terms#portOfDischarge"
+          },
+          "declarationOfInterest": {
+            "@id": "https://example.com/terms#declarationOfInterest"
+          },
+          "declaredValue": {
+            "@id": "https://example.com/terms#declaredValue"
+          },
+          "freightAmount": {
+            "@id": "https://example.com/terms#freightAmount"
+          },
+         "placeAndDateOfIssue": {
+            "@id": "https://example.com/terms#placeAndDateOfIssue"
+          },
+          "numberOfOriginalBls": {
+            "@id": "https://example.com/terms#numberOfOriginalBls"
+          },
+          "forDeliveryOfGoods": {
+            "@id": "https://example.com/terms#forDeliveryOfGoods"
+          },
+          "theUndersigned": {
+            "@id": "https://example.com/terms#theUndersigned"
+          },
+          "coveredAccordingToAttachedPolicy": {
+            "@id": "https://example.com/terms#coveredAccordingToAttachedPolicy"
+          },
+          "stamp": {
+            "@id": "https://example.com/terms#stamp"
+          },
+          "signature": {
+            "@id": "https://example.com/terms#signature"
+          },
+
+          "oceanVessel": {
+            "@id": "https://example.com/terms#oceanVessel"
+          },
+          "numberOfOriginalFBLs": {
+            "@id": "https://example.com/terms#numberOfOriginalFBLs"
+          },
+          "freightPayableAt": {
+            "@id": "https://example.com/terms#freightPayableAt"
+          },
+          "goods": {
+            "@id": "https://example.com/terms/#goods",
+            "@container": "@set",
+            "@context": {
+              "@protected": true,
+              "marksAndNumbers": {
+                "@id": "https://example.com/terms#shippersDescriptionGoods"
+              },
+              "numberAndPackage": {
+                "@id": "https://example.com/terms#numberAndPackage"
+              },
+              "description": {
+                "@id": "https://example.com/terms#description"
+              },
+              "grossWeight": {
+                "@id": "https://example.com/terms#grossWeight"
+              },
+              "measurement": {
+                "@id": "https://example.com/terms#measurement"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

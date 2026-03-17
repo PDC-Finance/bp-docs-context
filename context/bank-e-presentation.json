@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "BankEPresentation": {
+            "@id": "https://example.com/terms#BankEPresentation",
+            "@type": "@id",
+            "@context": {
+                "@protected": true,
+                "bankEpresentationCover": {
+                    "@id": "https://example.com/terms#bankEpresentationCover",
+                    "@container": "@set",
+                    "@context": {
+                        "@protected": true,
+                        "attachments": {
+                            "@id": "https://example.com/terms#attachments",
+                            "@container": "@set",
+                            "@context": {
+                                "@protected": true,
+                                "data": {
+                                    "@id": "https://example.com/terms#data"
+                                },
+                                "filename": {
+                                    "@id": "https://example.com/terms#filename"
+                                },
+                                "mimeType": {
+                                    "@id": "https://example.com/terms#mimeType"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

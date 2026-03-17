@@ -1,0 +1,100 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "BillOfExchange": {
+            "@id": "https://example.com/terms#BillOfExchange",
+            "@type": "@id",
+            "@context": {
+                "@protected": true,
+                "reference_no": {
+                    "@id": "https://example.com/terms#reference_no"
+                },
+                "currency": {
+                    "@id": "https://example.com/terms#currency"
+                },
+                "amount_in_figures": {
+                    "@id": "https://example.com/terms#amount_in_figures"
+                },
+                "bl_date": {
+                    "@id": "https://example.com/terms#bl_date"
+                },
+                "place_of_issue": {
+                    "@id": "https://example.com/terms#place_of_issue"
+                },
+                "date_of_issue": {
+                    "@id": "https://example.com/terms#date_of_issue"
+                },
+                "at": {
+                    "@id": "https://example.com/terms#at"
+                },
+                "pay_to_the_order_of": {
+                    "@id": "https://example.com/terms#pay_to_the_order_of"
+                },
+                "amount_in_words": {
+                    "@id": "https://example.com/terms#amount_in_words"
+                },
+                "drawn_under": {
+                    "@id": "https://example.com/terms#drawn_under"
+                },
+                "dated": {
+                    "@id": "https://example.com/terms#dated"
+                },
+                "issued_by": {
+                    "@id": "https://example.com/terms#issued_by"
+                },
+                "beneficiary_name": {
+                    "@id": "https://example.com/terms#beneficiary_name"
+                },
+                "payee_name": {
+                    "@id": "https://example.com/terms#payee_name"
+                },
+                "importer_name": {
+                    "@id": "https://example.com/terms#importer_name"
+                },
+                "exporter_name": {
+                    "@id": "https://example.com/terms#exporter_name"
+                },
+                "bl_number": {
+                    "@id": "https://example.com/terms#bl_number"
+                },
+                "beneficiary_lei": {
+                    "@id": "https://example.com/terms#beneficiary_lei"
+                },
+                "holder_lei": {
+                    "@id": "https://example.com/terms#holder_lei"
+                },
+                "drawee": {
+                    "@id": "https://example.com/terms#drawee",
+                    "@context": {
+                        "@protected": true,
+                        "signed_for_and_on_behalf_of": {
+                            "@id": "https://example.com/terms#signed_for_and_on_behalf_of"
+                        },
+                        "authorized_signatory_name": {
+                            "@id": "https://example.com/terms#authorized_signatory_name"
+                        },
+                        "signature": {
+                            "@id": "https://example.com/terms#signature"
+                        }
+                    }
+                },
+                "drawer": {
+                    "@id": "https://example.com/terms#drawer",
+                    "@context": {
+                        "@protected": true,
+                        "signed_for_and_on_behalf_of": {
+                            "@id": "https://example.com/terms#signed_for_and_on_behalf_of"
+                        },
+                        "authorized_signatory_name": {
+                            "@id": "https://example.com/terms#authorized_signatory_name"
+                        },
+                        "signature": {
+                            "@id": "https://example.com/terms#signature"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

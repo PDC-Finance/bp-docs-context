@@ -1,0 +1,81 @@
+{
+    "@context": {
+      "@version": 1.1,
+      "@protected": true,
+      "BimcoBillOfLading": {
+        "@id": "https://example.com/terms#BimcoBillOfLading",
+        "@type": "@id",
+        "@context": {
+          "@protected": true,
+          "logo": {
+            "@id": "https://example.com/terms#logo"
+          },
+          "shipper": {
+            "@id": "https://example.com/terms#shipper"
+          },
+          "companyName": {
+            "@id": "https://example.com/terms#companyName"
+          },
+          "notifyAddress": {
+            "@id": "https://example.com/terms#notifyAddress"
+          },
+          "stemNo": {
+            "@id": "https://example.com/terms#stemNo"
+          },
+          "consignee": {
+            "@id": "https://example.com/terms#consignee"
+          },
+          "vessel": {
+            "@id": "https://example.com/terms#vessel"
+          },
+          "portOfLoading": {
+            "@id": "https://example.com/terms#portOfLoading"
+          },
+          "portOfDischarge": {
+            "@id": "https://example.com/terms#portOfDischarge"
+          },
+          "ofWhichTonsOnDeckAtCharterersRisk": {
+            "@id": "https://example.com/terms#ofWhichTonsOnDeckAtCharterersRisk"
+          },
+          "charterPartyDated": {
+            "@id": "https://example.com/terms#charterPartyDated"
+          },
+          "receivedOnAccountOfFreight": {
+            "@id": "https://example.com/terms#receivedOnAccountOfFreight"
+          },
+          "freightPayableAt": {
+            "@id": "https://example.com/terms#freightPayableAt"
+          },
+          "placeAndDateOfIssue": {
+            "@id": "https://example.com/terms#placeAndDateOfIssue"
+          },
+          "numberOfOriginalBls": {
+            "@id": "https://example.com/terms#numberOfOriginalBls"
+          },
+          "stamp": {
+            "@id": "https://example.com/terms#stamp"
+          },
+          "signature": {
+            "@id": "https://example.com/terms#signature"
+          },
+          "contractNo": {
+            "@id": "https://example.com/terms#contractNo"
+          },
+          "goods": {
+            "@id": "https://example.com/terms/#goods",
+            "@container": "@set",
+            "@context": {
+              "@protected": true,
+              "description": {
+                "@id": "https://example.com/terms#shippersDescriptionGoods"
+              },
+              "weight": {
+                "@id": "https://example.com/terms#grossWeight"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

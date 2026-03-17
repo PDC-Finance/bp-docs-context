@@ -1,0 +1,94 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "AcceptedBillOfExchange": {
+            "@id": "https://example.com/terms#AcceptedBillOfExchange",
+            "@type": "@id",
+            "@context": {
+                "@protected": true,
+                "billDetails": {
+                    "@id": "https://example.com/terms#billDetails",
+                    "@context": {
+                        "@protected": true,
+                        "billReference": {
+                            "@id": "https://example.com/terms#billReference"
+                        },
+                        "dateOfIssue": {
+                            "@id": "https://example.com/terms#dateOfIssue"
+                        },
+                        "amount": {
+                            "@id": "https://example.com/terms#amount",
+                            "@context": {
+                                "@protected": true,
+                                "currency": {
+                                    "@id": "https://example.com/terms#currency"
+                                },
+                                "value": {
+                                    "@id": "https://example.com/terms#value"
+                                }
+                            }
+                        },
+                        "drawer": {
+                            "@id": "https://example.com/terms#drawer",
+                            "@context": {
+                                "@protected": true,
+                                "name": {
+                                    "@id": "https://example.com/terms#name"
+                                }
+                            }
+                        },
+                        "payee": {
+                            "@id": "https://example.com/terms#payee",
+                            "@context": {
+                                "@protected": true,
+                                "name": {
+                                    "@id": "https://example.com/terms#name"
+                                }
+                            }
+                        }
+                    }
+                },
+                "acceptanceDetails": {
+                    "@id": "https://example.com/terms#acceptanceDetails",
+                    "@context": {
+                        "@protected": true,
+                        "acceptedBy": {
+                            "@id": "https://example.com/terms#acceptedBy",
+                            "@context": {
+                                "@protected": true,
+                                "name": {
+                                    "@id": "https://example.com/terms#name"
+                                }
+                            }
+                        },
+                        "authorizedSignatory": {
+                            "@id": "https://example.com/terms#authorizedSignatory",
+                            "@context": {
+                                "@protected": true,
+                                "name": {
+                                    "@id": "https://example.com/terms#name"
+                                },
+                                "designation": {
+                                    "@id": "https://example.com/terms#designation"
+                                }
+                            }
+                        },
+                        "signedForAndOnBehalfOf": {
+                            "@id": "https://example.com/terms#signedForAndOnBehalfOf"
+                        },
+                        "acceptanceDNS": {
+                            "@id": "https://example.com/terms#acceptanceDNS"
+                        },
+                        "acceptanceDate": {
+                            "@id": "https://example.com/terms#acceptanceDate"
+                        },
+                        "signature": {
+                            "@id": "https://example.com/terms#signature"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

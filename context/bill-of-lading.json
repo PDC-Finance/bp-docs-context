@@ -1,0 +1,137 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "BillOfLading": {
+      "@id": "https://example.com/terms#BillOfLading",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+        "billOfLadingName": {
+          "@id": "https://example.com/terms#billOfLadingName"
+        },
+        "scac": {
+          "@id": "https://example.com/terms#scac"
+        },
+        "blNumber": {
+          "@id": "https://example.com/terms#blNumber"
+        },
+        "bookingNumber": {
+          "@id": "https://example.com/terms#bookingNumber"
+        },
+        "vessel": {
+          "@id": "https://example.com/terms#vessel"
+        },
+        "voyageNo": {
+          "@id": "https://example.com/terms#voyageNo"
+        },
+        "portOfLoading": {
+          "@id": "https://example.com/terms#portOfLoading"
+        },
+        "portOfDischarge": {
+          "@id": "https://example.com/terms#portOfDischarge"
+        },
+        "carrierName": {
+          "@id": "https://example.com/terms#carrierName"
+        },
+        "shippedOnBoardDate": {
+          "@id": "https://example.com/terms#shippedOnBoardDate"
+        },
+        "placeOfIssueBL": {
+          "@id": "https://example.com/terms#placeOfIssueBL"
+        },
+        "placeOfReceipt": {
+          "@id": "https://example.com/terms#placeOfReceipt"
+        },
+        "carrierSignature": {
+          "@id": "https://example.com/terms#carrierSignature"
+        },
+        "collect": {
+          "@id": "https://example.com/terms#collect"
+        },
+        "consigneeName": {  
+          "@id": "https://example.com/terms#consigneeName"
+        },
+        "toOrderOfText": {
+          "@id": "https://example.com/terms#toOrderOfText"
+        },
+        "notifyPartyName": {  
+          "@id": "https://example.com/terms#notifyPartyName"
+        },
+        "onwardInlandRouting": {
+          "@id": "https://example.com/terms#onwardInlandRouting"
+        },
+        "numberOfOriginalBL": {
+          "@id": "https://example.com/terms#numberOfOriginalBL"
+        },
+        "logo": {
+          "@id": "https://example.com/terms#logo"
+        },
+        "freightPrepaid": {
+          "@id": "https://example.com/terms#freightPrepaid"
+        },
+        "unit": {
+          "@id": "https://example.com/terms#unit"
+        },
+        "rate": {
+          "@id": "https://example.com/terms#rate"
+        },
+        "freightAndCharges": {
+          "@id": "https://example.com/terms#freightAndCharges"
+        },
+        "dateOfIssueBL": {
+          "@id": "https://example.com/terms#dateOfIssueBL"
+        },
+        "currencyCode": {
+          "@id": "https://example.com/terms#currencyCode"
+        },
+        "carrierReceipt": {
+          "@id": "https://example.com/terms#carrierReceipt"
+        },
+        "placeOfDelivery": {
+          "@id": "https://example.com/terms#placeOfDelivery"
+        },
+        "packages": {
+          "@id": "https://example.com/terms/#packages",
+          "@container": "@set",
+          "@context": {
+            "@protected": true,
+            "description": {
+              "@id": "https://example.com/terms#packagesDescription"
+            },
+            "weight": {
+              "@id": "https://example.com/terms#packagesWeight"
+            },
+            "measurement": {
+              "@id": "https://example.com/terms#packagesMeasurement"
+            }
+          }
+        },
+        "shipperName": {
+          "@id": "https://example.com/terms#shipperName"
+        },
+        "shipperAddressStreet": {
+          "@id": "https://example.com/terms#shipperAddressStreet"
+        },
+        "shipperAddressCountry": {
+          "@id": "https://example.com/terms#shipperAddressCountry"
+        },
+        "links": {
+          "@id": "https://example.com/terms#links"
+        },
+        "signForTermsAndCondition": {
+          "@id": "https://example.com/terms#signForTermsAndCondition"
+        },
+        "stamp": {
+          "@id": "https://example.com/terms#stamp"
+        },
+        "signedForCarrierText": {
+          "@id": "https://example.com/terms#signedForCarrierText"
+        },
+        "termsOfCarriage": {
+          "@id": "https://example.com/terms#termsOfCarriage"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "CustomBillOfLading": {
+      "@id": "https://example.com/terms#CustomBillOfLading",
+      "@type": "@id",
+      "@context": {
+        "@protected": true,
+        "customBillOfLading": {
+          "@id": "https://example.com/terms#customBillOfLading"
+        }
+      }
+    }
+  }
+}

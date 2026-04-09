@@ -64,6 +64,12 @@
                 "holder_lei": {
                     "@id": "https://example.com/terms#holder_lei"
                 },
+                "beneficiary_address": {
+                    "@id": "https://example.com/terms#beneficiary_address"
+                },
+                "holder_address": {
+                    "@id": "https://example.com/terms#holder_address"
+                },
                 "drawee": {
                     "@id": "https://example.com/terms#drawee",
                     "@context": {

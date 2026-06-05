@@ -87,6 +87,9 @@
                             "@id": "https://example.com/terms#signature"
                         }
                     }
+                },
+                "pdf_base64": {
+                    "@id": "https://example.com/terms#pdf_base64"
                 }
             }
         }

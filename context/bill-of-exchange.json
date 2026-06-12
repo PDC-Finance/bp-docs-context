@@ -101,7 +101,25 @@
                     }
                 },
                 "pdf_base64": {
-                    "@id": "https://example.com/terms#pdf_base64"
+                    "@id": "https://example.com/terms#pdf_base64",
+                    "@container": "@set",
+                    "@context": {
+                        "attachments": {
+                            "@id": "https://example.com/terms#attachments",
+                            "@container": "@set",
+                            "@context": {
+                                "data": {
+                                    "@id": "https://example.com/terms#data"
+                                },
+                                "filename": {
+                                    "@id": "https://example.com/terms#filename"
+                                },
+                                "mimeType": {
+                                    "@id": "https://example.com/terms#mimeType"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
